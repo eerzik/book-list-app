@@ -7,8 +7,7 @@ function App() {
     <div className="App">
       <BookContextProvider>
         <Navbar />
-        <BookList/>
-
+        <BookList />
       </BookContextProvider>
 
     </div>
