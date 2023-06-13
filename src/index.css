@@ -58,3 +58,31 @@ body {
   margin: 20px;
   text-align: center;
 }
+
+form{
+  padding: 20px;
+
+}
+
+input[type='text']{
+width: 100%;
+padding: 10px;
+box-sizing: border-box;
+margin: 6px 0;
+background: #f3a683;
+color: #000;
+}
+
+::placeholder{
+  color: #fff;
+}
+
+input[type='submit']{
+  margin: 10px auto;
+ background: #fff;
+ border: 0;
+ border-radius: 10px;
+ padding: 6px 20px;
+ display: block;
+ cursor: pointer;
+  }
