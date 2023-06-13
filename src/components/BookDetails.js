@@ -1,9 +1,12 @@
 import React from 'react';
-
-export default function BookDetails () {
+//props.book deyip de erişebiliyoruz.
+export default function BookDetails({ book }) {
     return (
-        <div>
-            Component!
-        </div>
+
+        <li>
+            <div className='title' >{book.ad}</div>
+            <div className='author' >{book.yazar}</div>
+        </li>
+
     );
 }

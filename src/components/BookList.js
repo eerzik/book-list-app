@@ -1,6 +1,7 @@
 import React, { useContext } from 'react';
 import { BookContext } from '../context/BookContext';
-import { BookDetails } from '../context/BookDetails';
+import BookDetails from './BookDetails';
+
 
 export default function BookList() {
 
